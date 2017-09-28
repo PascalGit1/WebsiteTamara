@@ -1,0 +1,48 @@
+/* unvisited link */
+a:link {
+	color: black;
+}
+
+/* visited link */
+a:visited {
+	color: black;
+}
+
+/* mouse over link */
+a:hover {
+	color: black;
+}
+
+/* selected link */
+a:active {
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.headerText {
+	font-size: 30px;
+	font-family: Optima;
+}
+
+.margin-left {
+	margin-left: 20px;
+}
+
+.margin-right {
+	margin-right: 20px;
+}
+
+
+.twitterbird {
+	width: 950px;
+	height: 400px;
+	display: block;
+	background: transparent url('../img/9x4grey.png') center top no-repeat;
+}
+
+.twitterbird:hover {
+	background-image: url('../img/9x4.png');
+}
