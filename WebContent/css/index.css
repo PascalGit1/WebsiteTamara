@@ -38,6 +38,27 @@ a:link {
 	text-decoration: none;
 }
 
+
+
+a img.hover {
+    display: none;
+    height: auto;
+}
+a img.default {
+    display: inherit;
+    height: auto;
+}
+a:hover img.hover {
+    display: inherit;
+    height: auto;
+}
+a:hover img.default {
+    display: none;
+    height: auto;
+}
+
+
+
 .normalText {
 	font-family: Optima;
 }
@@ -57,6 +78,12 @@ a:link {
 
 .margin-bottom{
 	margin-bottom: 10px;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 .twitterbird {
