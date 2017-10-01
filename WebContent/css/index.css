@@ -5,27 +5,19 @@
 	width: 100%;
 }
 
-.nopadding{
-	padding:0px !important;
-	margin:0px !important;
-}
-
-/* unvisited link */
+/* ANCHOR */
 a:link {
 	color: black;
 }
 
-/* visited link */
 a:visited {
 	color: black;
 }
 
-/* mouse over link */
 a:hover {
 	color: black;
 }
 
-/* selected link */
 a:active {
 	color: black;
 }
@@ -34,6 +26,7 @@ a:link {
 	text-decoration: none;
 }
 
+/* TEXT */
 .normalText {
 	font-family: Optima;
 }
@@ -43,6 +36,7 @@ a:link {
 	font-family: Optima;
 }
 
+/* MARGIN */
 .margin-left {
 	margin-left: 20px;
 }
@@ -51,23 +45,45 @@ a:link {
 	margin-right: 20px;
 }
 
-.margin-bottom{
+.margin-bottom {
 	margin-bottom: 10px;
 }
 
-.img-responsive {
-    display: block;
-    height: auto;
-    max-width: 100%;
+/* PADDING */
+.nopadding {
+	padding: 0px !important;
+	margin: 0px !important;
 }
 
-.twitterbird {
+/* IMAGE */
+.img-responsive {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+.workimage_small {
+	width: 100%;
+	height: 50% !important;
+}
+
+.workimage {
+	width: 100%;
+}
+
+.workimage_big {
+	width: 100%;
+	max-height: 1155px;
+	height: 103% !important;
+}
+
+.fishimageindex {
 	width: 950px;
 	height: 400px;
 	display: block;
 	background: transparent url('../img/9x4grey.png') center top no-repeat;
 }
 
-.twitterbird:hover {
+.fishimageindex:hover {
 	background-image: url('../img/9x4.png');
 }
