@@ -81,9 +81,9 @@ a:link {
 	width: 950px;
 	height: 400px;
 	display: block;
-	background: transparent url('../img/9x4grey.png') center top no-repeat;
+	background: transparent url('../img/950x400grey.png') center top no-repeat;
 }
 
 .fishimageindex:hover {
-	background-image: url('../img/9x4.png');
+	background-image: url('../img/950x400.png');
 }
