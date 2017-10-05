@@ -29,6 +29,7 @@ a:link {
 /* TEXT */
 .normalText {
 	font-family: Optima;
+	font-size: 15px;
 }
 
 .headerText {
