@@ -3,9 +3,7 @@ var j = 0;
 
 function addSmallImage() {
 	var newContent = ""
-			+ "<div id='imagecontainerSmall"
-			+ i
-			+ "'class='row'>"
+			+ "<div id='imagecontainerSmall"+ i + "'class='row'>"
 			+ "<div class='col-md-6'>"
 			+ "<div class='thumbnail '>"
 			+ "<input class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
@@ -16,7 +14,7 @@ function addSmallImage() {
 			+ "<input class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
 			+ "</div>"
 			+ "</div>"
-			+ "<button class='margin-bottom' type='button' onclick='removeImage()'>Remove row</button>"
+			+ "<button class='margin-bottom' type='button' onclick='removeImage(" + i + ")'>Remove row</button>"
 			+ "</div>"
 			+ "<div id='smallImg' class='margin-bottom'>"
 			+ "<button type='button' onclick='addSmallImage()'>Add small image</button>"
@@ -36,9 +34,7 @@ function addSmallImage() {
 }
 
 function addBigImage() {
-	var newContent = "" + "<div id='imagecontainerBig"
-			+ j
-			+ "' class='row margin-bottom'>"
+	var newContent = "" + "<div id='imagecontainerBig"+ j + "' class='row margin-bottom'>"
 			+ "<div class='col-md-6'>"
 			+ "<div class='main-img thumbnail '>"
 			+ "<input class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
@@ -69,6 +65,7 @@ function addBigImage() {
 			+ "</div>"
 			+ "</div>"
 			+ "</div>"
+			+ "<button class='margin-bottom' type='button' onclick='removeBigImage(" + j + ")'>Remove row</button>"
 			+ "</div>"
 			+ "<div id='smallImg'>"
 			+ "<button type='button' onclick='addSmallImage()'>Add small image</button>"
@@ -122,8 +119,16 @@ function addBigImage() {
 	}
 }
 
-function removeImage() {
-	var element = document.getElementById('imagecontainerSmall0');
+function removeImage(a) {
+	var element = document.getElementById('imagecontainerSmall' + a);
+	console.log(a);
+	element.parentNode.removeChild(element);
+//	i--;
+}
+
+function removeBigImage(b) {
+	var element = document.getElementById('imagecontainerBig' + b);
+	console.log(b);
 	element.parentNode.removeChild(element);
 //	i--;
 }
