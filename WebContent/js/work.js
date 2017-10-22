@@ -1,26 +1,32 @@
-var i = 0;
-var j = 0;
+var idSmall = 0;
+var idBig = 0;
 
 function addSmallImage() {
 	var newContent = ""
-			+ "<div id='imagecontainerSmall"+ i + "'class='row'>"
+			+ "<div id='imagecontainerSmall"+ idSmall + "'class='row'>"
 			+ "<div class='col-md-6'>"
 			+ "<div class='thumbnail '>"
-			+ "<input class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
+			+ "<button onclick='addTextArea()'>Add text area</button>"
+			+ "<input style='margin-left:397px' class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
 			+ "</div>"
 			+ "</div>"
 			+ "<div class='col-md-6'>"
 			+ "<div class='thumbnail '>"
-			+ "<input class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
+			+ "<button onclick='addTextArea()'>Add text area</button>"
+			+ "<input style='margin-left:397px' class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
 			+ "</div>"
 			+ "</div>"
-			+ "<button class='margin-bottom' type='button' onclick='removeImage(" + i + ")'>Remove row</button>"
+			+ "<div class='col-md-12' style='text-align:center'>"
+			+ "<button class='margin-bottom' type='button' onclick='removeImage(" + idSmall + ")'>Remove row</button>"
 			+ "</div>"
-			+ "<div id='smallImg' class='margin-bottom'>"
+			+ "</div>"
+			+ "<div class='col-md-12' style='text-align:center'>"
+			+ "<div id='smallImg' class='margin-bottom' style='margin-top:25px'>"
 			+ "<button type='button' onclick='addSmallImage()'>Add small image</button>"
 			+ "</div>"
 			+ "<div id='bigImg'>"
-			+ "<button type='button' onclick='addBigImage()'>Add big image</button>"
+			+ "<button type='button'  class='margin-bottom' onclick='addBigImage()'>Add big image</button>"
+			+ "</div>"
 			+ "</div>";
 
 	var oldContent = document.getElementById("smallImg");
@@ -28,50 +34,48 @@ function addSmallImage() {
 	if (oldContent.outerHTML) {
 		document.getElementById("bigImg").remove();
 		oldContent.outerHTML = newContent;
-		i++;
+		idSmall++;
 	}
 
 }
 
 function addBigImage() {
-	var newContent = "" + "<div id='imagecontainerBig"+ j + "' class='row margin-bottom'>"
+	var newContent = "" + "<div id='imagecontainerBig"+ idBig + "' class='row margin-bottom'>"
 			+ "<div class='col-md-6'>"
 			+ "<div class='main-img thumbnail '>"
-			+ "<input class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
-			+ "</div>"
-			+ "<div>"
 			+ "<button onclick='addTextArea()'>Add text area</button>"
+			+ "<input class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
 			+ "</div>"
 			+ "</div>"
 			+ "<div class='col-md-6'>"
 			+ "<div class='row'>"
 			+ "<div class='col-md-12'>"
 			+ "<div class='thumbnail '>"
-			+ "<input class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
-			+ "</div>"
-			+ "<div>"
 			+ "<button onclick='addTextArea()'>Add text area</button>"
+			+ "<input class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
 			+ "</div>"
 			+ "</div>"
 			+ "</div>"
 			+ "<div class='row'>"
 			+ "<div class='col-md-12'>"
 			+ "<div class='thumbnail '>"
+			+ "<button onclick='addTextArea()'>Add text area</button>"
 			+ "<input class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
 			+ "</div>"
-			+ "<div>"
-			+ "<button onclick='addTextArea()'>Add text area</button>"
 			+ "</div>"
 			+ "</div>"
 			+ "</div>"
+			+ "<div class='col-md-12' style='text-align:center'>"
+			+ "<button class='margin-bottom' type='button' onclick='removeBigImage(" + idBig + ")'>Remove row</button>"
 			+ "</div>"
-			+ "<button class='margin-bottom' type='button' onclick='removeBigImage(" + j + ")'>Remove row</button>"
 			+ "</div>"
-			+ "<div id='smallImg'>"
+			+ "<div class='col-md-12' style='text-align:center'>"
+			+ "<div id='smallImg' class='margin-bottom'>"
 			+ "<button type='button' onclick='addSmallImage()'>Add small image</button>"
 			+ "</div>"
-			+ "<div id='bigImg'> "
+			+ "<div id='bigImg' class='margin-bottom'> "
 			+ "<button type='button' onclick='addBigImage()'>Add big image</button>"
+			+ "</div>"
 			+ "</div>";
 
 	var oldContent = document.getElementById("bigImg");
@@ -79,7 +83,7 @@ function addBigImage() {
 	if (oldContent.outerHTML) {
 		document.getElementById("smallImg").remove();
 		oldContent.outerHTML = newContent;
-		j++
+		idBig++
 	}
 
 	function addImage() {
@@ -123,7 +127,6 @@ function removeImage(a) {
 	var element = document.getElementById('imagecontainerSmall' + a);
 	console.log(a);
 	element.parentNode.removeChild(element);
-//	i--;
 }
 
 function removeBigImage(b) {
