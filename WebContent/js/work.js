@@ -1,18 +1,21 @@
 var idSmall = 0;
 var idBig = 0;
+var AreaLeftId = 0;
+var AreaRightId = 0;
 
 function addSmallImage() {
 	var newContent = ""
 			+ "<div id='imagecontainerSmall"+ idSmall + "'class='row'>"
 			+ "<div class='col-md-6'>"
-			+ "<div class='thumbnail '>"
-			+ "<button onclick='addTextArea()'>Add text area</button>"
-			+ "<input style='margin-left:397px' class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
+			+ "<div class='thumbnail id='leftSide " + AreaLeftId + "' '>"
+			+ "<button class='test' onclick='addTextArea('leftSide'" + AreaLeftId + ")'>Add text area</button><br>"
+			+ "<input name='file' id='file' type='file'class='inputfile'>"
+			+ "<label for='file'>Add file</label>"
 			+ "</div>"
 			+ "</div>"
 			+ "<div class='col-md-6'>"
-			+ "<div class='thumbnail '>"
-			+ "<button onclick='addTextArea()'>Add text area</button>"
+			+ "<div class='thumbnail id='rightSide " + AreaRightId + "' '>"
+			+ "<button onclick='addTextArea(" + AreaRightId + ")'>Add text area</button>"
 			+ "<input style='margin-left:397px' class='file-upload' name='test' title='test' type='file' data-ng-file-select='onFileSelect($files)'  accept='image/png, image/jpeg' >"
 			+ "</div>"
 			+ "</div>"
@@ -85,42 +88,18 @@ function addBigImage() {
 		oldContent.outerHTML = newContent;
 		idBig++
 	}
+}
 
-	function addImage() {
-		var newContent = "" + "<div id='imageContainerSmall"
-				+ k
-				+ "'class='row'>"
-				+ "<div class='col-md-6'>"
-				+ "<div class='thumbnail '>"
-				+ "<a href='../img/IMG_7574.jpg'> "
-				+ "<img style='height: 60%'	class='workimage' src='../img/IMG_7574.jpg' alt='Lights'>"
-				+ "</a>"
-				+ "</div>"
-				+ "</div>"
-				+ "<div class='col-md-6'>"
-				+ "<div class='thumbnail '>"
-				+ "<a href='../img/IMG_7583.jpg'>"
-				+ "<img style='height: 60%'class='workimage' src='../img/IMG_7583.jpg' alt='Nature'>"
-				+ "</a>"
-				+ "</div>"
-				+ "</div>"
-				+ "</div>"
-				+ "<div id='smallImg'>"
-				+ "<button type='button' onclick='addSmallImage()'>Add small image</button>"
-				+ "</div>"
-				+ "<div id='bigImg'>"
-				+ "<button type='button' onclick='addBigImage()'>Add big image</button>"
-				+ "</div>";
-
-		var oldContent = document.getElementById("smallImg");
-
-		if (oldContent.outerHTML) {
-			document.getElementById("bigImg").remove();
-			oldContent.outerHTML = newContent;
-			k++;
-		}
-
-	}
+function addTextArea(leftID){
+	document.getElementById(leftID).remove();
+//	var textarea = "<textarea rows='15' cols='100'>"+ leftID +"</textarea>"
+//	document.getElementById(leftID).appendChild(textarea); 
+	
+	
+//	1. check if textarea or picture
+//	2. remove buttons
+//	3. add textare or picture
+//	4. add remove button
 }
 
 function removeImage(a) {
@@ -133,5 +112,4 @@ function removeBigImage(b) {
 	var element = document.getElementById('imagecontainerBig' + b);
 	console.log(b);
 	element.parentNode.removeChild(element);
-//	i--;
 }
