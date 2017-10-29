@@ -7,17 +7,19 @@ function addSmallImage() {
 	var newContent = ""
 			+ "<div id='imagecontainerSmall"+ idSmall + "'class='row centertext'>"
 			+ "<div class='col-md-6'>"
-			+ "<div class='thumbnail id='leftSide " + AreaLeftId + "' '>"
-			+ "<button class='test' onclick='addTextArea('leftSide'" + AreaLeftId + ")'>Add text area</button><br>"
-			+ "<input name='file' id='file' type='file'class='inputfile'>"
-			+ "<label for='file'>Add file</label>"
+			+ "<div class='thumbnail id='leftSide" + AreaLeftId + "'>"
+			+ "<button class='test' onclick='addTextArea('leftSide" + AreaLeftId + "')'>Add text area</button><br>"		
+			+ "<input name='fileLeft" + AreaLeftId + "' id='fileLeft" + AreaLeftId + "' type='file' class='inputfile' onchange='loadFileLeft(event, " + AreaLeftId + ")'>"
+			+ "<label for='fileLeft" + AreaLeftId + "'>Add file</label>"
+			+ "<img style='height:60%' class='workimage' id='outputLeft" + AreaLeftId + "'/>"
 			+ "</div>"
 			+ "</div>"
 			+ "<div class='col-md-6'>"
-			+ "<div class='thumbnail id='leftSide " + AreaRightId + "' '>"
+			+ "<div class='thumbnail id='leftSide" + AreaRightId + "'>"
 			+ "<button class='test' onclick='addTextArea('leftSide'" + AreaRightId + ")'>Add text area</button><br>"
-			+ "<input name='file' id='file' type='file'class='inputfile'>"
-			+ "<label for='file'>Add file</label>"
+			+ "<input name='file" + AreaRightId + "' id='file" + AreaRightId + "' type='file' class='inputfile' onchange='loadFileRight(event, " + AreaRightId + ")'>"
+			+ "<label for='file" + AreaRightId + "'>Add file</label>"
+			+ "<img style='height:60%' class='workimage' id='outputRight" + AreaRightId + "'/>"
 			+ "</div>"
 			+ "</div>"
 			+ "<div class='col-md-12' style='text-align:center'>"
@@ -25,10 +27,15 @@ function addSmallImage() {
 			+ "</div>"
 			+ "</div>"
 			+ "<div id='placeholder'></div>";
-
+	 
+	
+	
+	
 	var oldContent = document.getElementById("placeholder");
 	oldContent.outerHTML = newContent;
 	idSmall++;
+	AreaLeftId++;
+	AreaRightId++;
 
 
 }
@@ -96,3 +103,13 @@ function removeBigImage(b) {
 	console.log(b);
 	element.parentNode.removeChild(element);
 }
+
+function loadFileLeft(event, number) {
+    var output = document.getElementById('outputLeft'+number);
+    output.src = URL.createObjectURL(event.target.files[0]);
+  };
+  
+  function loadFileRight(event, number) {
+	    var output = document.getElementById('outputRight'+number);
+	    output.src = URL.createObjectURL(event.target.files[0]);
+	  };
