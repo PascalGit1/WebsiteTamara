@@ -135,12 +135,34 @@ a:link {
 }
 
 .fishimageindex {
-	width: 950px;
+	width: 600px;
 	height: 400px;
 	display: block;
-	background: transparent url('../img/950x400grey.png') center top no-repeat;
+	background: transparent url('../img/fish/950x400grey.png') center top no-repeat;
 }
 
 .fishimageindex:hover {
-	background-image: url('../img/950x400.png');
+	background-image: url('../img/fish/950x400.png');
+}
+
+.typografieimageindex {
+	width: 600px;
+	height: 400px;
+	display: block;
+	background: transparent url('../img/typografie/hoverblur.png') center top no-repeat;
+}
+
+.typografieimageindex:hover {
+	background-image: url('../img/typografie/hover.png');
+}
+
+.beeldarchiefimageindex {
+	width: 600px;
+	height: 400px;
+	display: block;
+	background: transparent url('../img/beeldarchief/hover6x4blur.png') center top no-repeat;
+}
+
+.beeldarchiefimageindex:hover {
+	background-image: url('../img/beeldarchief/hover6x4.png');
 }
