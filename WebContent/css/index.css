@@ -147,13 +147,13 @@ a:link {
 
 .typografieimageindex {
 	width: 600px;
-	height: 400px;
+	height: 970px;
 	display: block;
-	background: transparent url('../img/typografie/hoverblur.png') center top no-repeat;
+	background: transparent url('../img/typografie/hoverbigblur.png') center top no-repeat;
 }
 
 .typografieimageindex:hover {
-	background-image: url('../img/typografie/hover.png');
+	background-image: url('../img/typografie/hoverbig.png');
 }
 
 .beeldarchiefimageindex {
@@ -165,4 +165,15 @@ a:link {
 
 .beeldarchiefimageindex:hover {
 	background-image: url('../img/beeldarchief/hover6x4.png');
+}
+
+.aboimageindex {
+	width: 600px;
+	height: 970px;
+	display: block;
+	background: transparent url('../img/abo/hoverblur.png') center top no-repeat;
+}
+
+.aboimageindex:hover {
+	background-image: url('../img/abo/hover.png');
 }
