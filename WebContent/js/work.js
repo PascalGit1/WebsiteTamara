@@ -24,7 +24,7 @@ function addSmallImage() {
 			+ "</div>"
 			+ "</div>"
 			+ "<div class='col-md-12' style='text-align:center'>"
-			+ "<button class='margin-bottom' type='button' onclick='removeImage(" + idSmall + ")'>Remove row</button>"
+			+ "<button class='margin-bottom btn btn-danger' type='button' onclick='removeImage(" + idSmall + ")'>Remove row</button>"
 			+ "</div>"
 			+ "</div>"
 			+ "<div id='placeholder'></div>";
@@ -73,7 +73,7 @@ function addBigImage() {
 			+ "</div>"
 			+ "</div>"
 			+ "<div class='col-md-12' style='text-align:center'>"
-			+ "<button class='margin-bottom' type='button' onclick='removeBigImage(" + idBig + ")'>Remove row</button>"
+			+ "<button class='margin-bottom btn btn-danger' type='button' onclick='removeBigImage(" + idBig + ")'>Remove row</button>"
 			+ "</div>"
 			+ "</div>"
 			+ "<div id='placeholder'></div>";
