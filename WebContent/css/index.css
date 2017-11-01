@@ -177,3 +177,14 @@ a:link {
 .aboimageindex:hover {
 	background-image: url('../img/abo/hover.png');
 }
+
+.zeefimageindex {
+	width: 600px;
+	height: 970px;
+	display: block;
+	background: transparent url('../img/zeef/omablursmall.jpg') center top no-repeat;
+}
+
+.zeefimageindex:hover {
+	background-image: url('../img/zeef/omasmall.jpg');
+}
