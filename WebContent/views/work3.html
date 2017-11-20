@@ -2,8 +2,21 @@
 <head>
 <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="../css/index.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="../js/imageslider.js"></script>
+
+
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
 </head>
-<body>
+<body onload="showDivs(1);">
 	<div class="margin-left margin-right">
 		<div>
 			<nav class="navbar navbar-light bg-faded">
@@ -19,172 +32,55 @@
 				</div>
 			</nav>
 		</div>
-
-		<div class="row">
+		
+		<div class="row margin-bottom">
 			<div class="col-md-8">
-				<div class="thumbnail ">
-					<a href="../img/abo/123.jpg"> <img class="workimage"
-						src="../img/abo/123.jpg" alt="Lights">
-					</a>
-				</div>
+			<div class="w3-content w3-display-container" style="max-width:1224px;">
+			  <img class="mySlides" src="../img/abo/website17.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website2.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website3.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website4.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website5.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website6.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website7.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website8.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website9.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website10.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website11.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website12.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website13.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website14.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website15.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/website16.jpg" style="width:100%">
+			  <img class="mySlides" src="../img/abo/123.jpg" style="width:100%">
+			  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+			    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+			    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(9)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(10)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(11)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(12)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(13)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(14)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(15)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(16)"></span>
+			    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(17)"></span>
+			  </div>
+			</div>
 			</div>
 			<div class="col-md-4">
-				<p class="normalText">ABO</p>
-			
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website.jpg"> <img
-						class="workimage" src="../img/abo/website.jpg" alt="Lights">
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website17.jpg"> <img
-						class="workimage" src="../img/abo/website17.jpg" alt="Nature">
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website2.jpg"> <img
-						class="workimage" src="../img/abo/website2.jpg" alt="Lights">
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website3.jpg"> <img
-						class="workimage" src="../img/abo/website3.jpg" alt="Nature">
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website4.jpg"> <img
-						class="workimage" src="../img/abo/website4.jpg" alt="Lights">
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website5.jpg"> <img
-						class="workimage" src="../img/abo/website5.jpg" alt="Nature">
-					</a>
-				</div>
+				<p class="normalText">Project: ABO</p>
 			</div>
 		</div>
 		
-		<div class="row">
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website6.jpg"> <img
-						class="workimage" src="../img/abo/website6.jpg" alt="Lights">
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website7.jpg"> <img
-						class="workimage" src="../img/abo/website7.jpg" alt="Nature">
-					</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website8.jpg"> <img
-						class="workimage" src="../img/abo/website8.jpg" alt="Lights">
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website9.jpg"> <img
-						class="workimage" src="../img/abo/website9.jpg" alt="Nature">
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website10.jpg"> <img
-						class="workimage" src="../img/abo/website10.jpg" alt="Lights">
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website11.jpg"> <img
-						class="workimage" src="../img/abo/website11.jpg" alt="Nature">
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website12.jpg"> <img
-						class="workimage" src="../img/abo/website12.jpg" alt="Lights">
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website13.jpg"> <img
-						class="workimage" src="../img/abo/website13.jpg" alt="Nature">
-					</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website14.jpg"> <img
-						class="workimage" src="../img/abo/website14.jpg" alt="Lights">
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website15.jpg"> <img
-						class="workimage" src="../img/abo/website15.jpg" alt="Nature">
-					</a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					<a href="../img/abo/website16.jpg"> <img
-						class="workimage" src="../img/abo/website16.jpg" alt="Lights">
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="thumbnail ">
-					
-				</div>
-			</div>
-		</div>
-		
-	</div>
+	
 </body>
 </html>
