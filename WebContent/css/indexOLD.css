@@ -1,0 +1,196 @@
+#footer {
+	position: fixed;
+	bottom: 0px;
+	height: 70px;
+	width: 100%;
+}
+
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+	margin:5px;
+	padding:2px;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: #C0C0C0;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: 	#909090;
+}
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+.test {
+	margin:5px;
+	padding:2px;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: #909090;
+    display: inline-block;
+}
+
+/* ANCHOR */
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+/* TEXT */
+@font-face {
+    font-family: Optima;
+    src: url(Optima-Regular.ttf);
+}
+
+
+.normalText {
+	font-family: Optima;
+	font-size: 15px;
+}
+
+.contactText {
+	font-family: Optima;
+}
+
+.headerText {
+	font-size: 30px;
+	font-family: Optima;
+}
+
+.centertext{
+	text-align: center;
+}
+
+/* MARGIN */
+.margin-left {
+	margin-left: 20px;
+}
+
+.margin-right {
+	margin-right: 20px;
+}
+
+.margin-bottom {
+	margin-bottom: 10px;
+}
+
+.margin-top {
+	margin-top: 30px;
+}
+
+/* PADDING */
+.nopadding {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+/* IMAGE */
+.img-responsive {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+.workimage_small {
+	width: 100%;
+	height: 50% !important;
+}
+
+.workimage {
+	width: 100%;
+}
+
+.workimage_big {
+	width: 100%;
+	max-height: 1155px;
+	height: 103% !important;
+}
+
+.fishimageindex {
+	width: 600px;
+	height: 400px;
+	display: block;
+	background: transparent url('../img/fish/950x400grey.png') center top no-repeat;
+}
+
+.fishimageindex:hover {
+	background-image: url('../img/fish/950x400.png');
+}
+
+.typografieimageindex {
+	width: 600px;
+	height: 970px;
+	display: block;
+	background: transparent url('../img/typografie/hoverbigblur.png') center top no-repeat;
+}
+
+.typografieimageindex:hover {
+	background-image: url('../img/typografie/hoverbig.png');
+}
+
+.beeldarchiefimageindex {
+	width: 600px;
+	height: 400px;
+	display: block;
+	background: transparent url('../img/beeldarchief/hover6x4blur.png') center top no-repeat;
+}
+
+.beeldarchiefimageindex:hover {
+	background-image: url('../img/beeldarchief/hover6x4.png');
+}
+
+.aboimageindex {
+	width: 600px;
+	height: 970px;
+	display: block;
+	background: transparent url('../img/abo/hoverblur.png') center top no-repeat;
+}
+
+.aboimageindex:hover {
+	background-image: url('../img/abo/hover.png');
+}
+
+.zeefimageindex {
+	width: 600px;
+	height: 970px;
+	display: block;
+	background: transparent url('../img/zeef/omablursmall.jpg') center top no-repeat;
+}
+
+.zeefimageindex:hover {
+	background-image: url('../img/zeef/omasmall.jpg');
+}
