@@ -1,22 +1,22 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tamaravanlatum.nl" resolutions="1x" timestamp="1513619979461">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tamaravanlatum.nl" resolutions="1x" timestamp="1516205789811">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="3931884804" ref="07:01:06:03:index:02:04:10:05:09:08"/>
-    <file name="07.css" crc="3861100503" ref="07"/>
-    <file name="01.css" crc="191395136" ref="01"/>
-    <file name="06.css" crc="4173485103" ref="06"/>
-    <file name="03.css" crc="54217308" ref="03"/>
-    <file name="index.css" crc="478987923" ref="index"/>
-    <file name="02.css" crc="3886557774" ref="02"/>
-    <file name="04.css" crc="456824418" ref="04"/>
-    <file name="10.css" crc="103443998" ref="10"/>
-    <file name="05.css" crc="3855809594" ref="05"/>
-    <file name="09.css" crc="3963359305" ref="09"/>
-    <file name="08.css" crc="4209867312" ref="08"/>
+    <file name="master_a-master.css" crc="3931884804" ref="type:2050:ode-ii:ode:reflection:cultural-appropriation:conversation:archive:index:essence:about:future-baskerwell"/>
+    <file name="type.css" crc="3975109762" ref="type"/>
+    <file name="2050.css" crc="3836468790" ref="2050"/>
+    <file name="ode-ii.css" crc="281430461" ref="ode-ii"/>
+    <file name="ode.css" crc="139233562" ref="ode"/>
+    <file name="reflection.css" crc="21770711" ref="reflection"/>
+    <file name="cultural-appropriation.css" crc="230188879" ref="cultural-appropriation"/>
+    <file name="conversation.css" crc="438461004" ref="conversation"/>
+    <file name="archive.css" crc="269677458" ref="archive"/>
+    <file name="index.css" crc="46257696" ref="index"/>
+    <file name="essence.css" crc="280674263" ref="essence"/>
+    <file name="about.css" crc="388025540" ref="about"/>
+    <file name="future-baskerwell.css" crc="3770187703" ref="future-baskerwell"/>
   </folder>
   <folder name="assets">
     <file name="hover-2.png" crc="146085842" seo="true" mt="1509532050000"/>
-    <file name="website3.jpg" crc="386388864" seo="true" mt="1509539522000"/>
     <file name="vis-kleur.png" crc="4129949120" seo="true" mt="1507115081000"/>
     <file name="hover-22.png" crc="11510373" seo="true" mt="1509532294000"/>
     <file name="01.jpg" crc="476643863" seo="true" mt="1513596559000"/>
@@ -26,224 +26,233 @@
     <file name="voorpage.jpg" crc="3948142962" seo="true" mt="1513593683000"/>
     <file name="img_0663.jpg" crc="3982977676" seo="true" mt="1513609691000"/>
     <file name="hku-(7-of-65).jpg" crc="3871084544" seo="true" mt="1495625600000"/>
+    <file name="website3.jpg" crc="4203025437" seo="true" mt="1513858739000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:01:02:06:05:04:03:07:08:09:10"/>
-    <file name="museutils.js" crc="3803043152" ref="index:01:02:06:05:04:03:07:08:09:10"/>
-    <file name="whatinput.js" crc="86476730" ref="index:01:02:06:05:04:03:07:08:09:10"/>
-    <file name="museconfig.js" crc="4153641093" ref="index:01:02:06:05:04:03:07:08:09:10"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index:01:02:06:05:04:03:07:08:09:10"/>
-    <file name="require.js" crc="4157109226" ref="index:01:02:06:05:04:03:07:08:09:10"/>
-    <file name="webpro.js" crc="242022427" ref="01:04:03:07:08"/>
-    <file name="musewpslideshow.js" crc="457073769" ref="01:04:03:07:08"/>
-    <file name="jquery.museoverlay.js" crc="483674903" ref="01:04:03:07:08"/>
-    <file name="touchswipe.js" crc="4066113679" ref="01:04:03:07:08"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:essence:2050:conversation:cultural-appropriation:ode-ii:reflection:archive:ode:type:about:future-baskerwell"/>
+    <file name="museutils.js" crc="3803043152" ref="index:essence:2050:conversation:cultural-appropriation:ode-ii:reflection:archive:ode:type:about:future-baskerwell"/>
+    <file name="whatinput.js" crc="86476730" ref="index:essence:2050:conversation:cultural-appropriation:ode-ii:reflection:archive:ode:type:about:future-baskerwell"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:essence:2050:conversation:cultural-appropriation:ode-ii:reflection:archive:ode:type:about:future-baskerwell"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:essence:2050:conversation:cultural-appropriation:ode-ii:reflection:archive:ode:type:about:future-baskerwell"/>
+    <file name="require.js" crc="4157109226" ref="index:essence:2050:conversation:cultural-appropriation:ode-ii:reflection:archive:ode:type:about:future-baskerwell"/>
+    <file name="webpro.js" crc="242022427" ref="essence:ode-ii:reflection:archive:ode"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="essence:ode-ii:reflection:archive:ode"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="essence:ode-ii:reflection:archive:ode"/>
+    <file name="touchswipe.js" crc="4066113679" ref="essence:ode-ii:reflection:archive:ode"/>
   </folder>
   <folder name="images">
-    <file name="website-crop-u528.jpg" crc="4005481567" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website.jpg" crc="364566030" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="01:04:03:07:08"/>
-    <file name="website2-crop-u732.jpg" crc="4189162477" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="blank.gif" crc="4208392903" ref="essence:ode-ii:reflection:archive:ode"/>
+    <file name="website2.jpg" crc="4105960039" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website3-crop-u752.jpg" crc="4079186192" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website3.jpg" crc="3909404072" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website4-crop-u772.jpg" crc="4139745603" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website4.jpg" crc="4184392388" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website5-crop-u792.jpg" crc="437280544" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website5.jpg" crc="3829164421" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website6-crop-u812.jpg" crc="3823367962" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website6.jpg" crc="3874687449" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website7-crop-u832.jpg" crc="4208633405" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website7.jpg" crc="344851640" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website8-crop-u852.jpg" crc="234296339" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website8.jpg" crc="4202637600" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website9-crop-u872.jpg" crc="308140439" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website9.jpg" crc="4108071726" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website10-crop-u892.jpg" crc="448604974" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website10.jpg" crc="4143900459" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website11-crop-u912.jpg" crc="3793797280" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website11.jpg" crc="4294163354" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website12-crop-u932.jpg" crc="85553761" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website12.jpg" crc="445562135" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website13-crop-u952.jpg" crc="3896496840" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website13.jpg" crc="4273662577" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website15-crop-u972.jpg" crc="3765016604" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website15.jpg" crc="348291646" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website16-crop-u992.jpg" crc="4029293996" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website16.jpg" crc="4209708305" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="website17-crop-u1012.jpg" crc="4085524977" seo="true" ref="01">
-      <caption webpage="01" alt=""/>
+    <file name="website17.jpg" crc="187508129" seo="true" ref="essence">
+      <caption webpage="essence" alt=""/>
     </file>
-    <file name="loading.gif" crc="3815509949" ref="01:04:03:07:08"/>
-    <file name="img_7566.jpg" crc="3925563852" seo="true" ref="02">
-      <caption webpage="02" alt=""/>
+    <file name="loading.gif" crc="3815509949" ref="essence:ode-ii:reflection:archive:ode"/>
+    <file name="img_7566.jpg" crc="3925563852" seo="true" ref="2050">
+      <caption webpage="2050" alt=""/>
     </file>
-    <file name="img_7583-crop-u1397.jpg" crc="276992351" seo="true" ref="02">
-      <caption webpage="02" alt=""/>
+    <file name="img_7583-crop-u1397.jpg" crc="276992351" seo="true" ref="2050">
+      <caption webpage="2050" alt=""/>
     </file>
-    <file name="img_7608.jpg" crc="271979040" seo="true" ref="02">
-      <caption webpage="02" alt=""/>
+    <file name="img_7608.jpg" crc="271979040" seo="true" ref="2050">
+      <caption webpage="2050" alt=""/>
     </file>
-    <file name="hku (55 of 65).jpg" crc="310984362" seo="true" ref="06">
-      <caption webpage="06" alt=""/>
+    <file name="hku (55 of 65).jpg" crc="310984362" seo="true" ref="conversation">
+      <caption webpage="conversation" alt=""/>
     </file>
-    <file name="hku (26 of 61).jpg" crc="4084191614" seo="true" ref="06">
-      <caption webpage="06" alt=""/>
+    <file name="hku (26 of 61).jpg" crc="4084191614" seo="true" ref="conversation">
+      <caption webpage="conversation" alt=""/>
     </file>
-    <file name="hku (4 of 61).jpg" crc="90513549" seo="true" ref="06">
-      <caption webpage="06" alt=""/>
+    <file name="hku (4 of 61).jpg" crc="90513549" seo="true" ref="conversation">
+      <caption webpage="conversation" alt=""/>
     </file>
-    <file name="hku (5 of 61).jpg" crc="3887163857" seo="true" ref="06">
-      <caption webpage="06" alt=""/>
+    <file name="hku (5 of 61).jpg" crc="3887163857" seo="true" ref="conversation">
+      <caption webpage="conversation" alt=""/>
     </file>
-    <file name="hku (50 of 61).jpg" crc="4025139862" seo="true" ref="06">
-      <caption webpage="06" alt=""/>
+    <file name="hku (50 of 61).jpg" crc="4025139862" seo="true" ref="conversation">
+      <caption webpage="conversation" alt=""/>
     </file>
-    <file name="01-crop-u2577.jpg" crc="51680645" seo="true" ref="04">
-      <caption webpage="04" alt=""/>
+    <file name="01-crop-u2577.jpg" crc="51680645" seo="true" ref="ode-ii">
+      <caption webpage="ode-ii" alt=""/>
     </file>
-    <file name="02-crop-u2709.jpg" crc="4216180234" seo="true" ref="04">
-      <caption webpage="04" alt=""/>
+    <file name="02-crop-u2709.jpg" crc="4216180234" seo="true" ref="ode-ii">
+      <caption webpage="ode-ii" alt=""/>
     </file>
-    <file name="03-crop-u2729.jpg" crc="97639072" seo="true" ref="04">
-      <caption webpage="04" alt=""/>
+    <file name="03-crop-u2729.jpg" crc="97639072" seo="true" ref="ode-ii">
+      <caption webpage="ode-ii" alt=""/>
     </file>
-    <file name="04-crop-u2749.jpg" crc="442049992" seo="true" ref="04">
-      <caption webpage="04" alt=""/>
+    <file name="04-crop-u2749.jpg" crc="442049992" seo="true" ref="ode-ii">
+      <caption webpage="ode-ii" alt=""/>
     </file>
-    <file name="05-crop-u2769.jpg" crc="4089315157" seo="true" ref="04">
-      <caption webpage="04" alt=""/>
+    <file name="05-crop-u2769.jpg" crc="4089315157" seo="true" ref="ode-ii">
+      <caption webpage="ode-ii" alt=""/>
     </file>
-    <file name="06-crop-u2789.jpg" crc="4115915307" seo="true" ref="04">
-      <caption webpage="04" alt=""/>
+    <file name="06-crop-u2789.jpg" crc="4115915307" seo="true" ref="ode-ii">
+      <caption webpage="ode-ii" alt=""/>
     </file>
-    <file name="00-crop-u1754.jpg" crc="63970495" seo="true" ref="03">
-      <caption webpage="03" alt=""/>
+    <file name="00-crop-u1754.jpg" crc="63970495" seo="true" ref="reflection">
+      <caption webpage="reflection" alt=""/>
     </file>
-    <file name="02-crop-u1823.jpg" crc="217860025" seo="true" ref="03">
-      <caption webpage="03" alt=""/>
+    <file name="02-crop-u1823.jpg" crc="217860025" seo="true" ref="reflection">
+      <caption webpage="reflection" alt=""/>
     </file>
-    <file name="03-crop-u1955.jpg" crc="3878072872" seo="true" ref="03">
-      <caption webpage="03" alt=""/>
+    <file name="03-crop-u1955.jpg" crc="3878072872" seo="true" ref="reflection">
+      <caption webpage="reflection" alt=""/>
     </file>
-    <file name="04-crop-u1975.jpg" crc="243923950" seo="true" ref="03">
-      <caption webpage="03" alt=""/>
+    <file name="04-crop-u1975.jpg" crc="243923950" seo="true" ref="reflection">
+      <caption webpage="reflection" alt=""/>
     </file>
-    <file name="05-crop-u1995.jpg" crc="3938568078" seo="true" ref="03">
-      <caption webpage="03" alt=""/>
+    <file name="05-crop-u1995.jpg" crc="3938568078" seo="true" ref="reflection">
+      <caption webpage="reflection" alt=""/>
     </file>
-    <file name="06-crop-u2015.jpg" crc="3862394306" seo="true" ref="03">
-      <caption webpage="03" alt=""/>
+    <file name="06-crop-u2015.jpg" crc="3862394306" seo="true" ref="reflection">
+      <caption webpage="reflection" alt=""/>
     </file>
-    <file name="07-crop-u2035.jpg" crc="484552070" seo="true" ref="03">
-      <caption webpage="03" alt=""/>
+    <file name="07-crop-u2035.jpg" crc="484552070" seo="true" ref="reflection">
+      <caption webpage="reflection" alt=""/>
     </file>
-    <file name="img_7533-crop-u3347.jpg" crc="4116733277" seo="true" ref="07">
-      <caption webpage="07" alt=""/>
+    <file name="img_7533-crop-u3347.jpg" crc="4116733277" seo="true" ref="archive">
+      <caption webpage="archive" alt=""/>
     </file>
-    <file name="img_7534-crop-u3486.jpg" crc="227727288" seo="true" ref="07">
-      <caption webpage="07" alt=""/>
+    <file name="img_7534-crop-u3486.jpg" crc="227727288" seo="true" ref="archive">
+      <caption webpage="archive" alt=""/>
     </file>
-    <file name="img_7535-crop-u3506.jpg" crc="3911602137" seo="true" ref="07">
-      <caption webpage="07" alt=""/>
+    <file name="img_7535-crop-u3506.jpg" crc="3911602137" seo="true" ref="archive">
+      <caption webpage="archive" alt=""/>
     </file>
-    <file name="img_7536-crop-u3526.jpg" crc="3854809747" seo="true" ref="07">
-      <caption webpage="07" alt=""/>
+    <file name="img_7536-crop-u3526.jpg" crc="3854809747" seo="true" ref="archive">
+      <caption webpage="archive" alt=""/>
     </file>
-    <file name="img_7537-crop-u3546.jpg" crc="505984374" seo="true" ref="07">
-      <caption webpage="07" alt=""/>
+    <file name="img_7537-crop-u3546.jpg" crc="505984374" seo="true" ref="archive">
+      <caption webpage="archive" alt=""/>
     </file>
-    <file name="img_7538-crop-u3566.jpg" crc="3925894468" seo="true" ref="07">
-      <caption webpage="07" alt=""/>
+    <file name="img_7538-crop-u3566.jpg" crc="3925894468" seo="true" ref="archive">
+      <caption webpage="archive" alt=""/>
     </file>
-    <file name="img_7542-crop-u3586.jpg" crc="3823544447" seo="true" ref="07">
-      <caption webpage="07" alt=""/>
+    <file name="img_7542-crop-u3586.jpg" crc="3823544447" seo="true" ref="archive">
+      <caption webpage="archive" alt=""/>
     </file>
-    <file name="01-crop-u4166.jpg" crc="3997660315" seo="true" ref="08">
-      <caption webpage="08" alt=""/>
+    <file name="01-crop-u4166.jpg" crc="3997660315" seo="true" ref="ode">
+      <caption webpage="ode" alt=""/>
     </file>
-    <file name="02-crop-u4319.jpg" crc="396724501" seo="true" ref="08">
-      <caption webpage="08" alt=""/>
+    <file name="02-crop-u4319.jpg" crc="396724501" seo="true" ref="ode">
+      <caption webpage="ode" alt=""/>
     </file>
-    <file name="03-crop-u4339.jpg" crc="119400498" seo="true" ref="08">
-      <caption webpage="08" alt=""/>
+    <file name="03-crop-u4339.jpg" crc="119400498" seo="true" ref="ode">
+      <caption webpage="ode" alt=""/>
     </file>
-    <file name="04-crop-u4359.jpg" crc="3950173246" seo="true" ref="08">
-      <caption webpage="08" alt=""/>
+    <file name="04-crop-u4359.jpg" crc="3950173246" seo="true" ref="ode">
+      <caption webpage="ode" alt=""/>
     </file>
-    <file name="05-crop-u4379.jpg" crc="183508564" seo="true" ref="08">
-      <caption webpage="08" alt=""/>
+    <file name="05-crop-u4379.jpg" crc="183508564" seo="true" ref="ode">
+      <caption webpage="ode" alt=""/>
     </file>
-    <file name="06-crop-u4399.jpg" crc="470776842" seo="true" ref="08">
-      <caption webpage="08" alt=""/>
+    <file name="06-crop-u4399.jpg" crc="470776842" seo="true" ref="ode">
+      <caption webpage="ode" alt=""/>
     </file>
-    <file name="07-crop-u4419.jpg" crc="245680280" seo="true" ref="08">
-      <caption webpage="08" alt=""/>
+    <file name="07-crop-u4419.jpg" crc="245680280" seo="true" ref="ode">
+      <caption webpage="ode" alt=""/>
     </file>
-    <file name="08-crop-u4439.jpg" crc="267172118" seo="true" ref="08">
-      <caption webpage="08" alt=""/>
+    <file name="08-crop-u4439.jpg" crc="267172118" seo="true" ref="ode">
+      <caption webpage="ode" alt=""/>
     </file>
-    <file name="09-crop-u4459.jpg" crc="4126967721" seo="true" ref="08">
-      <caption webpage="08" alt=""/>
+    <file name="09-crop-u4459.jpg" crc="4126967721" seo="true" ref="ode">
+      <caption webpage="ode" alt=""/>
     </file>
-    <file name="1.jpg" crc="4178048433" seo="true" ref="09">
-      <caption webpage="09" alt=""/>
+    <file name="1.jpg" crc="4178048433" seo="true" ref="type">
+      <caption webpage="type" alt=""/>
     </file>
-    <file name="2.jpg" crc="4104367221" seo="true" ref="09">
-      <caption webpage="09" alt=""/>
+    <file name="2.jpg" crc="4104367221" seo="true" ref="type">
+      <caption webpage="type" alt=""/>
     </file>
-    <file name="4.jpg" crc="4264370180" seo="true" ref="09">
-      <caption webpage="09" alt=""/>
+    <file name="4.jpg" crc="4264370180" seo="true" ref="type">
+      <caption webpage="type" alt=""/>
     </file>
-    <file name="3.jpg" crc="3903105183" seo="true" ref="09">
-      <caption webpage="09" alt=""/>
+    <file name="3.jpg" crc="3903105183" seo="true" ref="type">
+      <caption webpage="type" alt=""/>
     </file>
-    <file name="img_1599.jpg" crc="297691655" seo="true" ref="10">
-      <caption webpage="10" alt=""/>
+    <file name="img_1599.jpg" crc="3790853239" seo="true" ref="future-baskerwell">
+      <caption webpage="future-baskerwell" alt=""/>
+      <caption webpage="type-of-jungle" alt=""/>
     </file>
-    <file name="img_1598.jpg" crc="4079507770" seo="true" ref="10">
-      <caption webpage="10" alt=""/>
+    <file name="img_1598.jpg" crc="4029661835" seo="true" ref="future-baskerwell">
+      <caption webpage="future-baskerwell" alt=""/>
+      <caption webpage="type-of-jungle" alt=""/>
     </file>
-    <file name="04.jpg" crc="3824374588" seo="true" ref="10">
-      <caption webpage="10" alt=""/>
+    <file name="04.jpg" crc="3824374588" seo="true" ref="future-baskerwell">
+      <caption webpage="future-baskerwell" alt=""/>
+      <caption webpage="type-of-jungle" alt=""/>
     </file>
-    <file name="img_1596.jpg" crc="11451204" seo="true" ref="10">
-      <caption webpage="10" alt=""/>
+    <file name="img_1596.jpg" crc="11451204" seo="true" ref="future-baskerwell">
+      <caption webpage="future-baskerwell" alt=""/>
+      <caption webpage="type-of-jungle" alt=""/>
     </file>
-    <file name="img_1597.jpg" crc="4138450610" seo="true" ref="10">
-      <caption webpage="10" alt=""/>
+    <file name="img_1597.jpg" crc="4138450610" seo="true" ref="future-baskerwell">
+      <caption webpage="future-baskerwell" alt=""/>
+      <caption webpage="type-of-jungle" alt=""/>
     </file>
-    <file name="03.jpg" crc="479836360" seo="true" ref="10">
-      <caption webpage="10" alt=""/>
+    <file name="03.jpg" crc="479836360" seo="true" ref="future-baskerwell">
+      <caption webpage="future-baskerwell" alt=""/>
+      <caption webpage="type-of-jungle" alt=""/>
     </file>
-    <file name="02.jpg" crc="428999532" seo="true" ref="10">
-      <caption webpage="10" alt=""/>
+    <file name="02.jpg" crc="428999532" seo="true" ref="future-baskerwell">
+      <caption webpage="future-baskerwell" alt=""/>
+      <caption webpage="type-of-jungle" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="64905032" seo="true" mt="1513619607773" redirect="true"/>
-  <file name="01.html" crc="4469754" seo="true" mt="1513619530278" redirect="true"/>
-  <file name="02.html" crc="49795439" seo="true" mt="1513619530278" redirect="true"/>
-  <file name="06.html" crc="241070770" seo="true" mt="1513619530278" redirect="true"/>
-  <file name="05.html" crc="478061909" seo="true" mt="1513619530278" redirect="true"/>
-  <file name="04.html" crc="515852193" seo="true" mt="1513619530278" redirect="true"/>
-  <file name="03.html" crc="3915081968" seo="true" mt="1513619530278" redirect="true"/>
-  <file name="07.html" crc="3815271682" seo="true" mt="1513619530278" redirect="true"/>
-  <file name="08.html" crc="223582500" seo="true" mt="1513619530278" redirect="true"/>
-  <file name="09.html" crc="3795294933" seo="true" mt="1513619530278" redirect="true"/>
-  <file name="10.html" crc="349905891" seo="true" mt="1513619530278" redirect="true"/>
+  <file name="index.html" crc="3878583252" seo="true" mt="1516031792803" redirect="true"/>
+  <file name="essence.html" crc="4017233192" seo="true" mt="1516028894024" redirect="true"/>
+  <file name="2050.html" crc="466590097" seo="true" mt="1516205547252" redirect="true"/>
+  <file name="conversation.html" crc="322641234" seo="true" mt="1516205361761" redirect="true"/>
+  <file name="cultural-appropriation.html" crc="4207639219" seo="true" mt="1516114740076" redirect="true"/>
+  <file name="ode-ii.html" crc="4119650860" seo="true" mt="1516115032430" redirect="true"/>
+  <file name="reflection.html" crc="3762221969" seo="true" mt="1516028894024" redirect="true"/>
+  <file name="archive.html" crc="363681528" seo="true" mt="1516028894024" redirect="true"/>
+  <file name="ode.html" crc="102871969" seo="true" mt="1516114792295" redirect="true"/>
+  <file name="type.html" crc="4271870834" seo="true" mt="1516028894024" redirect="true"/>
+  <file name="about.html" crc="191028168" seo="true" mt="1516031671754" redirect="true"/>
+  <file name="future-baskerwell.html" crc="4244408856" seo="true" mt="1516205361403" redirect="true"/>
 </manifest>

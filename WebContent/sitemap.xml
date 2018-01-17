@@ -2,13 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://tamaravanlatum.nl/index.html</loc>
-    <lastmod>2017-12-18</lastmod>
+    <lastmod>2018-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://tamaravanlatum.nl/09.html</loc>
-    <lastmod>2017-12-18</lastmod>
+    <loc>http://tamaravanlatum.nl/essence.html</loc>
+    <lastmod>2018-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website6.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website7.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website8.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website9.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website10.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website11.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website12.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website13.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website15.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website16.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/website17.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://tamaravanlatum.nl/about.html</loc>
+    <lastmod>2018-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://tamaravanlatum.nl/type.html</loc>
+    <lastmod>2018-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -25,8 +85,89 @@
     </image:image>
   </url>
   <url>
-    <loc>http://tamaravanlatum.nl/08.html</loc>
-    <lastmod>2017-12-18</lastmod>
+    <loc>http://tamaravanlatum.nl/future-baskerwell.html</loc>
+    <lastmod>2018-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/img_1599.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/img_1598.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/04.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/img_1596.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/img_1597.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/02.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://tamaravanlatum.nl/archive.html</loc>
+    <lastmod>2018-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/img_7533-crop-u3347.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/img_7534-crop-u3486.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/img_7535-crop-u3506.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/img_7536-crop-u3526.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/img_7537-crop-u3546.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/img_7538-crop-u3566.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/img_7542-crop-u3586.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://tamaravanlatum.nl/reflection.html</loc>
+    <lastmod>2018-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/00-crop-u1754.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/02-crop-u1823.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/03-crop-u1955.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/04-crop-u1975.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/05-crop-u1995.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/06-crop-u2015.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://tamaravanlatum.nl/images/07-crop-u2035.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://tamaravanlatum.nl/ode.html</loc>
+    <lastmod>2018-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -58,62 +199,35 @@
     </image:image>
   </url>
   <url>
-    <loc>http://tamaravanlatum.nl/10.html</loc>
-    <lastmod>2017-12-18</lastmod>
+    <loc>http://tamaravanlatum.nl/cultural-appropriation.html</loc>
+    <lastmod>2018-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://tamaravanlatum.nl/conversation.html</loc>
+    <lastmod>2018-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/img_1599.jpg</image:loc>
+      <image:loc>http://tamaravanlatum.nl/images/hku%20(55%20of%2065).jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/img_1598.jpg</image:loc>
+      <image:loc>http://tamaravanlatum.nl/images/hku%20(26%20of%2061).jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/04.jpg</image:loc>
+      <image:loc>http://tamaravanlatum.nl/images/hku%20(4%20of%2061).jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/img_1596.jpg</image:loc>
+      <image:loc>http://tamaravanlatum.nl/images/hku%20(5%20of%2061).jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/img_1597.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/03.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/02.jpg</image:loc>
+      <image:loc>http://tamaravanlatum.nl/images/hku%20(50%20of%2061).jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://tamaravanlatum.nl/03.html</loc>
-    <lastmod>2017-12-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/00-crop-u1754.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/02-crop-u1823.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/03-crop-u1955.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/04-crop-u1975.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/05-crop-u1995.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/06-crop-u2015.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/07-crop-u2035.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://tamaravanlatum.nl/04.html</loc>
-    <lastmod>2017-12-18</lastmod>
+    <loc>http://tamaravanlatum.nl/ode-ii.html</loc>
+    <lastmod>2018-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -136,56 +250,8 @@
     </image:image>
   </url>
   <url>
-    <loc>http://tamaravanlatum.nl/07.html</loc>
-    <lastmod>2017-12-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/img_7533-crop-u3347.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/img_7534-crop-u3486.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/img_7535-crop-u3506.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/img_7536-crop-u3526.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/img_7537-crop-u3546.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/img_7538-crop-u3566.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/img_7542-crop-u3586.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://tamaravanlatum.nl/06.html</loc>
-    <lastmod>2017-12-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/hku%20(55%20of%2065).jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/hku%20(26%20of%2061).jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/hku%20(4%20of%2061).jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/hku%20(5%20of%2061).jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/hku%20(50%20of%2061).jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://tamaravanlatum.nl/02.html</loc>
-    <lastmod>2017-12-18</lastmod>
+    <loc>http://tamaravanlatum.nl/2050.html</loc>
+    <lastmod>2018-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -199,64 +265,28 @@
     </image:image>
   </url>
   <url>
-    <loc>http://tamaravanlatum.nl/05.html</loc>
-    <lastmod>2017-12-18</lastmod>
+    <loc>http://tamaravanlatum.nl/assets/hku-(7-of-65).jpg</loc>
+    <lastmod>2017-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://tamaravanlatum.nl/01.html</loc>
+    <loc>http://tamaravanlatum.nl/assets/website3.jpg</loc>
+    <lastmod>2017-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://tamaravanlatum.nl/assets/05.jpg</loc>
+    <lastmod>2017-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://tamaravanlatum.nl/assets/img_0663.jpg</loc>
     <lastmod>2017-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website-crop-u528.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website2-crop-u732.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website3-crop-u752.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website4-crop-u772.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website5-crop-u792.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website6-crop-u812.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website7-crop-u832.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website8-crop-u852.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website9-crop-u872.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website10-crop-u892.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website11-crop-u912.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website12-crop-u932.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website13-crop-u952.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website15-crop-u972.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website16-crop-u992.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://tamaravanlatum.nl/images/website17-crop-u1012.jpg</image:loc>
-    </image:image>
   </url>
   <url>
     <loc>http://tamaravanlatum.nl/assets/voorpage.jpg</loc>
@@ -265,7 +295,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://tamaravanlatum.nl/assets/img_0663.jpg</loc>
+    <loc>http://tamaravanlatum.nl/assets/01.jpg</loc>
+    <lastmod>2017-12-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://tamaravanlatum.nl/assets/site.jpg</loc>
     <lastmod>2017-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -277,26 +313,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://tamaravanlatum.nl/assets/05.jpg</loc>
-    <lastmod>2017-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://tamaravanlatum.nl/assets/site.jpg</loc>
-    <lastmod>2017-12-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://tamaravanlatum.nl/assets/vis-kleur.png</loc>
-    <lastmod>2017-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://tamaravanlatum.nl/assets/01.jpg</loc>
-    <lastmod>2017-12-18</lastmod>
+    <loc>http://tamaravanlatum.nl/assets/hover-2.png</loc>
+    <lastmod>2017-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -307,20 +325,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://tamaravanlatum.nl/assets/hku-(7-of-65).jpg</loc>
-    <lastmod>2017-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://tamaravanlatum.nl/assets/website3.jpg</loc>
-    <lastmod>2017-11-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://tamaravanlatum.nl/assets/hover-2.png</loc>
-    <lastmod>2017-11-01</lastmod>
+    <loc>http://tamaravanlatum.nl/assets/vis-kleur.png</loc>
+    <lastmod>2017-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
